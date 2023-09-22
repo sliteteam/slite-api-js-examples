@@ -1,0 +1,12 @@
+{
+  "name": "slite-api-js-examples",
+  "version": "1.0.0",
+  "description": "Slite Public API examples",
+  "main": "index.js",
+  "author": "Slite Inc.",
+  "license": "Private",
+  "dependencies": {
+    "@api/slite": "file:.api/apis/slite",
+    "dotenv": "^16.3.1"
+  }
+}

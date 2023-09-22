@@ -1,0 +1,9 @@
+.DS_Store
+.api/
+node_modules/
+npm-debug.log
+.env
+licenses.txt
+yarn-error.log
+.github_token
+error.log
