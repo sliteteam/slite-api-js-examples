@@ -5,9 +5,9 @@ async function main() {
   config()
 
   const apiKey = process.env.SLITE_API_KEY as string
-  
+
   client.auth(apiKey)
-  
+
   const response = await client.createNote({
     title: `${new Date().toLocaleDateString()} Sales meeting report`,
     markdown: `
@@ -18,7 +18,7 @@ async function main() {
 - We decided to hire a new sales rep
     `,
   })
-  
+
   console.log(response.data)
   // {
   //   id: 'NOTE_ID',

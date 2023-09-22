@@ -12,6 +12,8 @@ npm install
 npx api install https://api.slite.com/openapi.json
 ```
 
+For the NPX installation, select TypeSeript and enter `slite` as a package name.
+
 Duplicate the `.env.sample` and rename it to `.env` and fill the data with your own.
 For more informations, visit https://developers.slite.com
 
